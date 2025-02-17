@@ -1,0 +1,14 @@
+src/
+├── main/
+│   ├── frontend/
+|   |   |--node_modules
+│   │   ├── src/
+│   │   │   └── NameForm.jsx  # Must exist
+│   │   ├── package.json
+│   │   └── webpack.config.js
+│   └── resources/
+│       ├── static/
+│       │   └── js/bundle.js         # Empty directory (target for bundle.js)
+│       └── templates/
+│           └── form.html
+
